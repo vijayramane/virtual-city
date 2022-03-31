@@ -32,10 +32,10 @@ class Database extends Config
      */
     public $default = [
         'DSN'      => '',
-        'hostname' => 'localhost',
-        'username' => '',
-        'password' => '',
-        'database' => '',
+        'hostname' => 'database-1.czenunndsabq.ap-south-1.rds.amazonaws.com',
+        'username' => 'admin',
+        'password' => 'SRUEDewXKywD72q',
+        'database' => 'virtual_city',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
